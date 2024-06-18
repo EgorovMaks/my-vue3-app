@@ -1,0 +1,27 @@
+@import url(./reset.scss);
+@import url(./fonts.scss);
+
+:root{
+    --site-width: 1172px;
+}
+
+// body {
+//     overflow: hidden; /* Отключаем общий скроллбар */
+//     scrollbar-width: none; /* Убираем ширину скроллбара */
+//     -ms-overflow-style: none; /* Убираем стилизацию скроллбара в IE и Edge */
+// }
+
+// /* Для WebKit браузеров (Chrome, Safari, Opera) */
+// body::-webkit-scrollbar {
+//     display: none; /* Скрываем скроллбар в WebKit */
+// }
+
+#app{
+    font-family: var(--font-family);
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+.blue-text{
+    color: #1253a2;
+}
